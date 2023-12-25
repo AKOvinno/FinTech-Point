@@ -1,0 +1,3 @@
+private_tlv_data from authorization-> 	P560011P17012000000000000K07006000226P97005INTERP02002IR048001HP14003000
+tag 	tag_length 		value
+P56 	001 			1	  ---value 1 means DCC

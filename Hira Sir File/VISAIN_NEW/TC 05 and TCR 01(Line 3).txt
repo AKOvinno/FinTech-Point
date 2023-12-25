@@ -1,0 +1,34 @@
+Line 3: Additional Data by ovinno
+0501            000000                                                          313056636886   TERMID01000000000000  421400  0   0                           000000000  
+
+position, length, format, contents
+05 --> 1–2 2 UN Transaction Code
+0 --> 3 1 UN Transaction Code Qualifier
+1 --> 4 1 UN Transaction Component Sequence Number
+      --> 5–10 6 AN Issuer Workstation BIN
+      --> 11–16 6 AN Acquirer Workstation BIN	  
+000000 --> 17–22 6 UN Chargeback Reference Number
+ --> 23 1 AN Documentation Indicator
+                                                  --> 24–73 50 AN Member Message Text
+  --> 74–75 2 AN Special Condition Indicators
+   --> 76–78 3 AN Fee Program Indicator
+ --> 79 1 AN Issuer Charge
+ --> 80 1 AN Reserved
+313056636886   --> 81–95 15 AN Card Acceptor ID
+TERMID01 --> 96–103 8 AN Terminal ID
+000000000000 --> 104–115 12 UN National Reimbursement Fee
+ --> 116 1 AN Mail/Telephone or Electronic Commerce Indicator
+ --> 117 1 AN Special Chargeback Indicator
+421400 --> 118–123 6 AN Interface Trace Number
+ --> 124 1 AN Unattended Acceptance Terminal Indicator
+ --> 125 1 AN Prepaid Card Indicator
+0 --> 126 1 AN Service Development Field
+ --> 127 1 AN AVS Response Code
+ --> 128 1 AN Authorization Source Code
+ --> 129 1 AN Purchase Identifier Format
+0 --> 130 1 AN Account Selection
+  --> 131–132 2 AN Installment Payment Count
+                         --> 133–157 25 AN Purchase Identifier
+000000000 --> 158–166 9 UN Cashback
+ --> 167 1 AN Chip Condition Code
+ --> 168 1 AN POS Environment

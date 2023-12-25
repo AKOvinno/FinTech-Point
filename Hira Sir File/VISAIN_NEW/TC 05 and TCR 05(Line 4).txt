@@ -1,0 +1,34 @@
+Line 4: Payment Service Data
+0505586213531861029000000008000682          0000 000000000000N                             000000000000000 0000000000000000000000000000N             0000000000000000   
+
+	  Pos l f  contents
+05--> 1–2 2 UN Transaction Code
+0 --> 3   1 UN Transaction Code Qualifier
+5 --> 4   1 UN Transaction Component Sequence Number
+586213531861029 --> 5–19 15 UN Transaction Identifier
+000000008000 --> 20–31 12 UN Authorized Amount - 80$
+682 --> 32–34 3 AN Authorization Currency Code - SAUDI ARABIA
+  --> 35–36 2 AN Authorization Response Code
+    --> 37–40 4 AN Validation Code
+ --> 41 1 AN Excluded Transaction Identifier Reason
+ --> 42 1 AN CRS Processing Code
+  --> 43–44 2 AN Chargeback Rights Indicator
+00--> 45–46 2 UN Multiple Clearing Sequence Number
+00 --> 47–48 2 UN Multiple Clearing Sequence Count
+ --> 49 1 AN Market-Specific Authorization Data Indicator
+000000000000 --> 50–61 12 UN Total Authorized Amount
+N --> 62 1 AN Information Indicator
+              --> 63–76 14 AN Merchant Telephone Number
+ --> 77 1 AN Additional Data Indicator
+  --> 78–79 2 AN Merchant Volume Indicator
+  --> 80–81 2 AN Electronic Commerce Goods Indicator
+          --> 82–91 10 AN Merchant Verification Value
+000000000000000 --> 92–106 15 UN Interchange Fee Amount
+ --> 107 1 AN Interchange Fee Sign
+00000000 --> 108–115 8 UN Source Currency to Base Currency Exchange Rate
+00000000 --> 116–123 8 UN Base Currency to Destination Currency Exchange Rate
+000000000000 --> 124–135 12 UN Optional Issuer ISA Amount
+N --> 136–137 2 AN Product ID
+      --> 138–143 6 AN Program ID
+      0000000000000000  --> 144–167 24 AN Reserved
+ --> 168 1 AN CVV2 Result Code

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EMVCoL3CardImage formatVersion="1.0">
+  <Header>
+    <CardId>VISA.CI.0002</CardId>
+    <CardVersion>1.3</CardVersion>
+    <Author>Visa</Author>
+    <Date-Time>2022-12-02T01:40:58.715Z</Date-Time>
+    <Description>CVN 18 card with Issuer Authentication set to Mandatory</Description>
+  </Header>
+  <Features>
+    <PaymentSystem>Visa</PaymentSystem>
+    <PaymentSystemSpecificData value="VIS" keyword="Crypto" />
+  </Features>
+  <Contact>
+    <Application AID="A0 00 00 00 03 10 10" cryptoId="1">
+      <TerminalRequest p1="04" ins="A4" cmd="00" name="Select">
+        <CardResponse>
+          <Tag name="FCI Template" ID="6F">
+            <Tag name="DF Name" ID="84">A0 00 00 00 03 10 10</Tag>
+            <Tag name="FCI Proprietary Template" ID="A5">
+              <Tag name="Application Label" ID="50" format="ISO-8859-1">Visa Credit</Tag>
+              <Tag name="PDOL" ID="9F 38">9F 1A 02</Tag>
+            </Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <TerminalRequest p1="00" ins="A8" cmd="80" name="GPO" cmdData="83 02 ?? ??" p2="00">
+        <CardResponse>
+          <Tag name="Response Message Template Format 1" ID="80">
+            <Tag name="Application Interchange Profile" ID="82" tagpresent="false" taglengthformat="0">18 00</Tag>
+            <Tag name="Application File Locator (AFL)" ID="94" tagpresent="false" taglengthformat="0">08 01 01 00 18 01 02 01</Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <TerminalRequest ins="B2" cmd="00" name="ReadRecord" record="01" sfi="01">
+        <CardResponse>
+          <Tag name="Application Elementary File (AEF) Data Template" ID="70">
+            <Tag name="Track 2 Equivalent Data" ID="57">47 61 73 00 00 00 00 29 D3 11 22 01 15 43 41 34</Tag>
+            <Tag name="Cardholder Name" ID="5F 20" format="ISO-8859-1">L3TEST/CARD0002</Tag>
+            <Tag name="Track 1 Discretionary Data" ID="9F 1F">31 35 34 33 34 30 30 34 34 35 30 30 30 30 30 30</Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <TerminalRequest ins="B2" cmd="00" name="ReadRecord" record="01" sfi="03">
+        <CardResponse>
+          <Tag name="AEF Data Template" ID="70">
+            <Tag name="Application Primary Account Number" ID="5A">47 61 73 00 00 00 00 29</Tag>
+            <Tag name="Application PAN Sequence Number" ID="5F 34">01</Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <TerminalRequest ins="B2" cmd="00" name="ReadRecord" record="02" sfi="03">
+        <CardResponse>
+          <Tag name="AEF Data Template" ID="70">
+            <Tag name="Application Expiration Date" ID="5F 24">31 12 31</Tag>
+            <Tag name="Application Effective Date" ID="5F 25">09 07 01</Tag>
+            <Tag name="Issuer Country Code" ID="5F 28">08 40</Tag>
+            <Tag name="Service Code" ID="5F 30">02 01</Tag>
+            <Tag name="CDOL 1" ID="8C">9F 02 06 9F 03 06 9F 1A 02 95 05 5F 2A 02 9A 03 9C 01 9F 37 04 </Tag>
+            <Tag name="CDOL 2" ID="8D">8A 02 9F 02 06 9F 03 06 9F 1A 02 95 05 5F 2A 02 9A 03 9C 01 9F 37 04 91 08  </Tag>
+            <Tag name="CVM List" ID="8E">00 00 00 00 00 00 00 00 02 01 1E 03 1F 03 02 00</Tag>
+            <Tag name="Application Usage Control" ID="9F 07">FF 80</Tag>
+            <Tag name="Application Version Number" ID="9F 08">00 8D</Tag>
+            <Tag name="IAC - Default" ID="9F 0D">F0 40 00 88 00</Tag>
+            <Tag name="IAC - Denial" ID="9F 0E">00 00 00 00 00</Tag>
+            <Tag name="IAC - Online" ID="9F 0F">00 00 00 00 00</Tag>
+            <Tag name="Application Currency Code" ID="9F 42">08 40</Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <TerminalRequest ins="AE" cmd="80" name="GenAC" instance="1" cmdData="?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ??">
+        <CardResponse>
+          <Tag name="Response Message Template Format 1" ID="80">
+            <Tag name="Cryptogram Information Data" ID="9F 27" tagpresent="false" taglengthformat="0">[emvcard.term()] </Tag>
+            <Tag name="ATC" ID="9F 36" tagpresent="false" taglengthformat="0">[emvcard.atc()]</Tag>
+            <Tag name="Application Cryptogram" ID="9F 26" tagpresent="false" taglengthformat="0">[emvcard.appcrypto()]</Tag>
+            <Tag name="Issuer Application Data" ID="9F 10" cvn="0x12" tagpresent="false" taglengthformat="0">06 01 12 03 [emvcard.iad(3)] 0F 00 56 49 53 41 4C 33 54 45 53 54 43 41 53 45</Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <TerminalRequest ins="AE" cmd="80" name="GenAC" instance="2" cmdData="?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ??">
+        <CardResponse>
+          <Tag name="Response Message Template Format 1" ID="80">
+            <Tag name="Cryptogram Information Data" ID="9F 27" tagpresent="false" taglengthformat="0">[emvcard.auth()] </Tag>
+            <Tag name="ATC" ID="9F 36" tagpresent="false" taglengthformat="0">[emvcard.atc()]</Tag>
+            <Tag name="Application Cryptogram" ID="9F 26" tagpresent="false" taglengthformat="0">[emvcard.appcrypto()]</Tag>
+            <Tag name="Issuer Application Data" ID="9F 10" cvn="0x12" tagpresent="false" taglengthformat="0">06 01 12 03 [emvcard.iad(3)] 0F 00 56 49 53 41 4C 33 54 45 53 54 43 41 53 45</Tag>
+          </Tag>
+        </CardResponse>
+      </TerminalRequest>
+      <InternalTags>
+        <Tag ID="9F 52" name="Application Default Actions">60 00 00 00 00 00</Tag>
+        <Tag ID="9F 56" name="Issuer Authentication Indicator">80</Tag>
+      </InternalTags>
+    </Application>
+  </Contact>
+  <Crypto cryptoId="1">
+    <SymmetricKeys>
+      <Key name="UDK A/B (for ARQC)">CB 34 25 91 6E 37 AB 5D F2 C8 97 C1 BF 0D D3 58</Key>
+      <Key name="UDK A/B (for MAC)">CB 34 25 91 6E 37 AB 5D F2 C8 97 C1 BF 0D D3 58</Key>
+      <Key name="UDK A/B (for ENC)">CB 34 25 91 6E 37 AB 5D F2 C8 97 C1 BF 0D D3 58</Key>
+    </SymmetricKeys>
+  </Crypto>
+  <MagStripe>
+    <Track1 format="ISO-8859-1">B4761730000000029^L3TEST/CARD0002^31122011543400445000000</Track1>
+    <Track2 format="ISO-8859-1">4761730000000029=311220115434445</Track2>
+  </MagStripe>
+</EMVCoL3CardImage>

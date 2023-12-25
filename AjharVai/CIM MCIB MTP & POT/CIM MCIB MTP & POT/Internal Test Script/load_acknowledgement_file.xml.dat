@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MERGE>
+<ACK file_name="SentCimC04092023_03.xml" load_flag="Y">
+    <GROUP>CIML</GROUP>
+    <SUBMITTED_BY>ADMIN</SUBMITTED_BY>
+    <SUBMISSION_DATE>04/09/2023 10:10:10</SUBMISSION_DATE>
+    <LOAD_DATE>04/09/2023 10:10:10</LOAD_DATE>
+    <NO_OF_RECORDS>10</NO_OF_RECORDS>
+    <VALID_RECORDS>10</VALID_RECORDS>
+    <LOG record_no="1">
+      <ENTITY_CODE>TEST19052020</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5174580</REF_NO>
+      <UNIQUE_REF_ID>2023090412156001</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="2">
+      <ENTITY_CODE>0506202323</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5176259</REF_NO>
+      <UNIQUE_REF_ID>2023090412156002</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="3">
+      <ENTITY_CODE>89028318131</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5181043</REF_NO>
+      <UNIQUE_REF_ID>2023090412156001</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+	 </LOG>
+	 <LOG record_no="4">
+      <ENTITY_CODE>036854</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5198769</REF_NO>
+      <UNIQUE_REF_ID>2023090412156002</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="5">
+      <ENTITY_CODE>TEST19052020</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5174580</REF_NO>
+      <UNIQUE_REF_ID>2023090412156001</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	</ACK> 
+	<ACK file_name="SentCimC04092023_04.xml" load_flag="Y">
+    <GROUP>CIML</GROUP>
+    <SUBMITTED_BY>ADMIN</SUBMITTED_BY>
+    <SUBMISSION_DATE>04/09/2023 10:10:10</SUBMISSION_DATE>
+    <LOAD_DATE>04/09/2023 10:10:10</LOAD_DATE>
+    <NO_OF_RECORDS>5</NO_OF_RECORDS>
+    <VALID_RECORDS>5</VALID_RECORDS>
+	<LOG record_no="1">
+      <ENTITY_CODE>0506202301</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5176259</REF_NO>
+      <UNIQUE_REF_ID>2023090412156044</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="2">
+      <ENTITY_CODE>TEST19052089</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5174580</REF_NO>
+      <UNIQUE_REF_ID>2023090412156001</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="3">
+      <ENTITY_CODE>0506202366</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5176259</REF_NO>
+      <UNIQUE_REF_ID>NOT FOUND</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="4">
+      <ENTITY_CODE>0506202399</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5176259</REF_NO>
+      <UNIQUE_REF_ID>2023090412156022</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+	<LOG record_no="5">
+      <ENTITY_CODE>TEST19052020</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5174597</REF_NO>
+      <UNIQUE_REF_ID>2023090412156001</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+</ACK>  
+</MERGE>
+
+

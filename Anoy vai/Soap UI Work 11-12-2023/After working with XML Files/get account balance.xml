@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.ws.provider.acp.com/">
+<soapenv:Header/>
+<soapenv:Body>
+<v1:getAccountBalance_10>
+<arg0>
+<RqUID>35978957-1829-4045-83fc-354870280d50</RqUID>
+<AddUsrIdentif>
+	<UserId>1</UserId>
+	<RequestDate>2021-12-14T00:00:00</RequestDate>
+	<UserLanguage>en_US</UserLanguage>
+	<FinancialInstitution>000001</FinancialInstitution>
+	<ProviderLogin>WS_GW_CIM</ProviderLogin>
+	<ProviderPasswd>2c83b221a24e0334518d5af007f2bf036033934b032f9e294569ab80f1c5c290f8387f30b42aea743d6515c3b83d731af5e435393e58b9990b098334edd2c344</ProviderPasswd>
+</AddUsrIdentif>
+<CardNumber>1234567891234567</CardNumber>
+</arg0>
+</v1:getAccountBalance_10>
+</soapenv:Body>
+</soapenv:Envelope>

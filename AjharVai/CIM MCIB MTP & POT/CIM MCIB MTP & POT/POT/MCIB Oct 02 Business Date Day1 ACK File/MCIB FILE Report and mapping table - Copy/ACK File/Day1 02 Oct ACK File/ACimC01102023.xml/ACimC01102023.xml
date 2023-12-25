@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MERGE>
+  <ACK file_name="SentCimC01102023_01.xml" load_flag="Y">
+    <GROUP>CIML</GROUP>
+    <SUBMITTED_BY>ADMIN</SUBMITTED_BY>
+    <SUBMISSION_DATE>14/11/2023 15:00:00</SUBMISSION_DATE>
+    <LOAD_DATE>14/11/2023 15:05:00</LOAD_DATE>
+    <NO_OF_RECORDS>5</NO_OF_RECORDS>
+    <VALID_RECORDS>4</VALID_RECORDS>
+    <LOG record_no="1">
+      <ENTITY_CODE>U170580000000A</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>4559384</REF_NO>
+      <UNIQUE_REF_ID>2016031912156366</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="2">
+      <ENTITY_CODE>D0104730500686</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>3475361</REF_NO>
+      <UNIQUE_REF_ID>2023051012345601</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="3">
+      <ENTITY_CODE>89028318131</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5181043</REF_NO>
+      <UNIQUE_REF_ID>NOT FOUND</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Record to be updated not found!</MSG_DESC>
+        <MSG_DESC>Record cannot be updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="4">
+      <ENTITY_CODE>A250920231234B</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5107616</REF_NO>
+      <UNIQUE_REF_ID>2023051012345603</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="5">
+      <ENTITY_CODE>036853</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5136853</REF_NO>
+      <UNIQUE_REF_ID>2023051012345604</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+  </ACK>
+  <ACK file_name="SentCimC01102023_02.xml" load_flag="Y">
+    <GROUP>CIML</GROUP>
+    <SUBMITTED_BY>ADMIN</SUBMITTED_BY>
+    <SUBMISSION_DATE>14/11/2023 15:01:00</SUBMISSION_DATE>
+    <LOAD_DATE>14/11/2023 15:06:00</LOAD_DATE>
+    <NO_OF_RECORDS>4</NO_OF_RECORDS>
+    <VALID_RECORDS>4</VALID_RECORDS>
+    <LOG record_no="1">
+      <ENTITY_CODE>A250920232345C</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5137008</REF_NO>
+      <UNIQUE_REF_ID></UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="2">
+      <ENTITY_CODE>0506202301</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5176259</REF_NO>
+      <UNIQUE_REF_ID>2023051012345604</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Facility already Expired - However Record will be updated ...</MSG_DESC>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+        <CO_NAME>Company Name Disparity! Loading will proceed. Expected: STARK INDUSTRIES</CO_NAME>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="3">
+      <ENTITY_CODE>2509202</ENTITY_CODE>
+      <ENTITY_TYPE>C</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5129178</REF_NO>
+      <UNIQUE_REF_ID>2023051012345605</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+        <CO_NAME>Company Name Disparity! Loading will proceed. Expected: BEN JERRY PARLOUR</CO_NAME>
+      </DETAILS>
+    </LOG>
+    <LOG record_no="4">
+      <ENTITY_CODE>89028318131</ENTITY_CODE>
+      <ENTITY_TYPE>I</ENTITY_TYPE>
+      <PASSPORT_NO></PASSPORT_NO>
+      <COUNTRY_CODE>MU</COUNTRY_CODE>
+      <REF_NO>CRD5171776</REF_NO>
+      <UNIQUE_REF_ID>2023051012345673</UNIQUE_REF_ID>
+      <DETAILS>
+        <MSG_DESC>Credit Record Successfully Updated!</MSG_DESC>
+        <MSG_DESC>Customer Record Successfully Updated!</MSG_DESC>
+      </DETAILS>
+    </LOG>
+  </ACK>
+</MERGE>

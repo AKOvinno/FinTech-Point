@@ -1,0 +1,29 @@
+Line 5: TC 05 TCR 07 by ovinno
+050700001160731E0F0C8682        804EBF7400477C00AFE24835C111A7BF010A000024800003606002000000118500                  06                                                  
+
+05 --> 1–2 2 UN Transaction Code
+0 --> 3 1 UN Transaction Code Qualifier
+7 --> 4 1 UN Transaction Component Sequence Number
+00 -->5–6 2 AN Transaction Type
+001 --> 7–9 3 UN Card Sequence Number
+160731 --> 10–15 6 UN Terminal Transaction Date
+E0F0C8 --> 16–21 6 DX Terminal Capability Profile
+682 --> 22–24 3 UN Terminal Country Code
+        --> 25–32 8 AN Terminal Serial Number
+804EBF74 --> 33–40 8 DX Unpredictable Number
+0047 --> 41–44 4 DX Application Transaction Counter
+7C00--> 45–48 4 DX Application Interchange Profile
+AFE24835C111A7BF--> 49–64 16 DX Cryptogram
+01 --> 65–66 2 DX Issuer Application Data, Byte 2
+0A --> 67–68 2 DX Issuer Application Data, Byte 3
+0000248000--> 69–78 10 DX Terminal Verification Results
+03606002 --> 79–86 8 DX Issuer Application Data, Byte 4–7
+000000118500 --> 87–98 12 UN Cryptogram Amount
+  --> 99–100 2 DX Issuer Application Data, Byte 8
+                --> 101–116 16 DX Issuer Application Data, Byte 9–16 
+06 --> 117–118 2 DX Issuer Application Data, Byte 1
+  --> 119–120 2 DX Issuer Application Data, Byte 17
+                              --> 121–150 30 DX Issuer Application Data, Byte 18–32
+        --> 151–158 8 DX Form Factor Indicator
+          --> 159–168 10 DX Issuer Script 1 Results
+                                                  

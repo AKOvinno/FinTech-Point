@@ -1,0 +1,14 @@
+First Line: Header Information (TC 90 and TCR 43)
+9043232624214      2303200400TEST 0000      000000000000000000INMACR        001                                                                                         
+
+TC --> 90 Transaction Code (Position 1-2, UN)
+432326 --> Processing BIN (Position 3-8, AN)
+24214 --> Processing Date(YYDDD) (Position 9-13, UN) --> Settlement Date/Business Date
+
+      2303200400 --> Reserved (Position 14 - 29, AN)
+	  TEST --> Test Option (Position 30-33, AN)
+	   0000      000000000000000000 --> Reserved (Position 34 - 62, AN)
+	  INMACR  --> Security Code (Position 63 - 70, AN)
+             --> Reserved (Position 71 - 76, AN)	  
+	  001  --> Outgoing File ID (Position 77 - 79, UN)
+	  --> Reserved (Position 80 - 168, AN)

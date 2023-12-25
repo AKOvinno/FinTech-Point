@@ -1,0 +1,13 @@
+Day 1: Fintech & Payment industry & ICPS & Opportunities
+Day 2: Magstripe Card & CHIP Card & Track Data & Card life Cycle
+Day 3: Bank Architecture & Transaction Flow
+Day 4: ISO 8583 & ISO Specification
+Day 5: VISA & MasterCard Specification (Online & BASE2 / IPM)
+Day 6: Transaction processing & Chargeback & Dispute
+Day 7: Keys & HSM & HSM Commands & PCI
+Day 8: Enhancement & Non-Compliance
+Day 9: PowerCard resources & Online Track & authorization Flow
+Day 10: PowerCard Tables & Data Structure
+Day 11: PowerCard Modules & Screen & Operation
+Day 12: BASE1 & BASE2 / IPM file processing
+Day 13: PowerCard batches & Batch Issues
